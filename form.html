@@ -9,34 +9,44 @@
         <hr>
         <form>
         <table border="1" align="center">
-            <thead>
+            <tbody>
                 <tr>
-                    <th>Name:</th>
-                    <th>Email:</th>
-                    <th>Gender:</th>
-                    <th>Address:</th>
-                    <th>Code number:</th>
-                    <th>Blood Group:</th>
-                    <th>Phone number:</th>
-                    <th colspan="2">
+                    <td>Name:</td>
+                    <td><input type="text" placeholder="eg:ABC" name="username"></td>
+                </tr>
+                <tr>
+                    <td>Email:</td>
+                    <td><input type="email" placeholder="eg:abc@gmail.com" name="emails"></td>
+                </tr>
+                <tr>
+                    <td>Gender:</td>
+                    <td><input type="radio" value="Male">Male
+                        <input type="radio" value="Female">Female
+                        <input type="radio" value="Other">Other
+                    </td>
+                </tr>
+                <tr>
+                    <td>Address:</td>
+                    <td><input type="text" placeholder="eg:abc"></td>
+                </tr>
+                <tr>
+                    <td>Code number:</td>
+                    <td><input type="number" name="number" value="number"></td>
+                </tr>
+                <tr>
+                    <td>Blood Group:</td>
+                    <td><input type="text" placeholder="eg:A+"></td>
+                </tr>
+                <tr>
+                    <td>Phone Number:</td>
+                    <td><input type="text" placeholder="eg:9841xxxxxx" name="ph no."></td>
+                </tr>
+                <tr>
+                    <td colspan="2">
                         <button type="Submit" placeholder="SUBMIT" name="SUBMIT">Submit</button>
                             <br>
                         <button type="reset">Reset</button>
-                    </th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                        <th><input type="text" placeholder="eg:ABC" name="username"></th>
-                        <th><input type="email" placeholder="eg:abc@gmail.com" name="emails"></th>
-                        <th><input type="radio" value="Male">Male
-                            <input type="radio" value="Female">Female
-                            <input type="radio" value="Other">Other
-                        </th>
-                        <th><input type="text" placeholder="eg:abc"></th>
-                        <th><input type="number" name="number" value="number"></th>
-                        <th><input type="text" placeholder="eg:A+"></th>
-                        <th><input type="text" placeholder="eg:9841xxxxxx" name="ph no."></th>
+                    </td>
                 </tr>
             </tbody>
         </table>
